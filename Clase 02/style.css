@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("img/fondo2.jpg");
+    
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    position: relative;
+    background-color: darkorange;
+    border: 2px solid blue;
+    border-radius: 20px;
+    box-shadow: 0px 0PX 60PX #fff;
+    height: 100px;
+    text-align: center;
+}
+
+#encabezado {
+    margin-top: 40px;
+}
+
+nav {
+    background-color: yellow;
+    margin-top: 2px;
+    border: 2px solid green;
+    border-radius: 10px;
+    height: 30px;
+    text-align: center;
+}
+
+#barra {
+    margin-top: 6px;
+}
+
+div.menu1 {
+    position: relative;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    margin-top: 2px;
+    height: 300px;
+    width: 15%;
+    float: left;
+    text-align: center;
+}
+
+#menu1 {
+    margin-top: 150px;
+}
+
+div.texto {
+    background-color: darkgrey;
+    margin-top: 2px;
+    border-radius: 20px;
+    height: 300px;
+    width: 70%;
+    float: left;
+    text-align: center;
+}
+
+#texto {
+    margin-top: 130px;
+}
+
+div.menu2 {
+    background-color: cornflowerblue;
+    margin-top: 2px;
+    border-radius: 20px;
+    height: 300px;
+    width: 15%;
+    float: left;
+    text-align: center;
+}
+
+#menu2 {
+    margin-top: 150px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 2px;
+    border: 2px solid green;
+    border-radius: 15px;
+    height: 50px;
+    margin-top: 304px;
+    text-align: center;
+}
+
+#pie {
+    margin-top: 15px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo {
+    position: absolute;
+    right: 0px;
+    top: 20px;
+}
+
+.logo1 {
+    position: absolute;
+    left: 20px;
+    top: 15px;
+}
+
+.logo2 {
+    position: absolute;
+    bottom: 0px;
+}
