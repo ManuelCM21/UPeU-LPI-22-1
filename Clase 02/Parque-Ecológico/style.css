@@ -13,20 +13,21 @@ header {
     padding: 20px;
     margin-bottom: 5px;
     border-radius: 10px;
-    text-align: center;
+    text-align: left;
 }
 
 #encabezado {
     color: #605B53;
     font-weight: 800;
-    font-size: 20px;
+    font-size: 25px;
     margin-top: 0px;
+    margin-left: 50px;
 }
 
 .logo {
     position: absolute;
     left: 20px;
-    top: 10px;
+    top: 20px;
 }
 
 div.menu1 {
@@ -35,14 +36,14 @@ div.menu1 {
     color: blue;
     border-radius: 10px;
     margin-top: 2px;
-    height: 300px;
+    height: 170px;
     width: 30%;
     float: left;
     text-align: left;
 }
 
 #menu1 {
-    margin: 20px;
+    margin: 10px;
 }
 
 .texto {
@@ -51,20 +52,23 @@ div.menu1 {
     margin-top: 2px;
     margin-bottom: 10px;
     border-radius: 6px;
-    height: 300px;
+    height: 170px;
     width: 70%;
     float: left;
 }
 
 #texto {
-    font-size: 20px;
-    margin: 20px;
+    font-size: 15px;
+    margin: 10px;
+    margin-top: 30px;
+    margin-right: 0px;
 }
 
 #img {
-    border: 3px solid #605B56;
-    border-radius: px;
+    border: 2px solid #605B56;
+    border-radius: 4px;
     margin: 3px;
+    margin-right: 10px;
     float: right;
 }
 
@@ -84,12 +88,11 @@ footer {
 }
 
 .container{
-    width: 80%;
+    width: 35%;
     margin: 0 auto;
-    border: 2px solid black;
+    border: 1px solid black;
 }
 
 .forma {
-    margin: 10px;
-
+    margin: 5px;
 }
