@@ -26,6 +26,10 @@
         border-spacing: 0px;
     }
 
+    td {
+        padding: 0px;
+    }
+
     p.contacto {
         font-family: fuente2;
         margin-top: 20px;
@@ -44,13 +48,12 @@
 
     p.p1 {
         margin-top: 27px;
-        margin-bottom: 10px;
     }
 
     p.p2 {
         font-family: fuente2;
         margin-top: 4px;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
     }
 
     p.p21 {
@@ -62,7 +65,15 @@
     p.p3 {
         font-family: fuente2;
         margin-top: 4px;
-        margin-bottom: 160px;
+        margin-bottom: 0px;
+        padding-bottom: 150px;
+    }
+
+    p.p31 {
+        font-family: fuente2;
+        margin-right: 0px;
+        margin-top: 4px;
+        margin-bottom: 0px;
     }
 
     p.p4 {
@@ -72,18 +83,30 @@
     }
 
     p {
-        margin-left: 27px;
-        margin-right: 27px;
-        margin-top: 27px;
-        margin-bottom: 27px;
+        margin: 30px;
+    }
+
+    p.c2 {
+        margin-left: 25px;
     }
 
     ul {
         font-family: fuente2;
-        margin-left: 0px;
+        margin-left: 4px;
         margin-right: 20px;
         margin-top: 4px;
         margin-bottom: 20px;
+    }
+
+    ul.item {
+        margin-left: 0px;
+        margin-right: 15px;
+        margin-top: 4px;
+        margin-bottom: 20px;
+    }
+
+    ul.item2 {
+        margin-bottom: 0px;
     }
     
 </style>
@@ -91,17 +114,17 @@
     <table width="595px" height="842px">
         <tr>
             <td>
-                <table width="220px" style="background-color: #4a4a4a; color: #FFFFFF; font-size: 9.3px;">
+                <table width="217.88px" height="842" style="background-color: #4a4a4a; color: #FFFFFF; font-size: 9.3px;">
                     <tr>
                         <td align="center">
                             <p class="p1">
-                                <img src="foto.png" alt="" width="150" height="150">
+                                <img src="foto.png" alt="" width="158" height="158">
                             </p>
                         </td>
                     </tr>
                     <tr>
                         <td >
-                            <hr size="1px" color="black" width="163&"/>
+                            <hr size="1px" color="black" width="158px"/>
                             <p class="sub1" style="font-size: 12px;">
                                 PERFIL PROFESIONAL</p>
                             <p class="p2">
@@ -119,7 +142,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <hr size="1px" color="black" width="163&"/>
+                            <hr size="1px" color="black" width="158px"/>
                             <p class="sub1" style="font-size: 12px;">
                                 APTITUDES</p>
                                 <ul>
@@ -134,7 +157,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <hr size="1px" color="black" width="163&"/>
+                            <hr size="1px" color="black" width="158px"/>
                             <p class="sub1" style="font-size: 12px;">
                                 IDIOMAS</p>
                             <p class="p2">
@@ -145,7 +168,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <hr size="1px" color="black" width="163&"/>
+                            <hr size="1px" color="black" width="158px"/>
                             <p class="sub1" style="font-size: 12px;">INFORMÁTICA</p>
                             <p class="p3">
                                 Linux <br>
@@ -160,13 +183,13 @@
                 </table>
             </td>
             <td>
-                <table width="375px" style="font-size: 9.3px;" >
+                <table width="375px" height="842px" style="font-size: 9.3px;" >
                     <tr>
                         <td>
-                            <p class="sub1" style="font-size: 36px; color: #4a4a4a;">
+                            <p class="sub1 c2" style="font-size: 34px; color: #4a4a4a;">
                                 Alberto </p>
-                            <p class="sub1" style="font-size: 36px;"> Morales Caballero</p>
-                            <p class="contacto">
+                            <p class="sub1 c2" style="font-size: 34px;"> Morales Caballero</p>
+                            <p class="contacto c2">
                                 Tel: 629604924 <br>
                                 alberto.moralescaballero@gmail.com <br>
                                 Calle Góngora, 3, 35005Las Palmas de Gran Canaria GC <br>
@@ -176,41 +199,41 @@
                     </tr>
                     <tr>
                         <td>
-                            <hr size="1px" color="#4a4a4a" width="370&"/>
-                            <p class="sub1" style="color: #4a4a4a; font-size: 12px;">
+                            <hr size="1px" align="left" color="#4a4a4a" width="352px"/>
+                            <p class="sub1 c2" style="color: #4a4a4a; font-size: 12px;">
                                 EXPERIENCIA LABORAL</p>
-                            <p class="p21">
+                            <p class="p21 c2">
                                 02/2016 - 03/2020 <br>
-                                <span class="negrita" style="color: #000000;">Icson Systems</span>
+                                <span class="negrita c2" style="color: #000000;">Icson Systems</span>
                                  | Las Palmas de Gran Canaria, GC <br>
                                 Ingeniero técnico en informática de sistemas
                             </p>
-                            <ul>
+                            <ul class="item">
                                 <li>Experiencia en entornos Linux, incluida la gestión de usuarios, las secuencias <br>
                                     de comandos, la gestión de servicios y el análisis de rendimiento.</li>
                                 <li>Configuración de redes y sistemas de archivos distribuidos (configuración <br>
                                     NAS, monitorización de tráfico de red y seguridad de red).</li>
                                 <li>Especificaciones técnicas y realización de tests.</li>
                             </ul>
-                            <p class="p21">
+                            <p class="p21 c2">
                                 01/2013 - 02/2016 <br>
-                                <span class="negrita" style="color: #000000;">SDPE</span>
+                                <span class="negrita c2" style="color: #000000;">SDPE</span>
                                  | Las Palmas de Gran Canaria, GC <br>
                                 Ingeniero técnico en informática de sistemas <br>
                             </p>
-                            <ul>
+                            <ul class="item">
                                 <li>Instalación, configuración, y mantenimiento de equipos y entornos <br>
                                     informáticos, así como de productos de software específicos.</li>
                                 <li>Protocolos de comunicación Ethernet y RS232.</li>
                                 <li>Herramientas de simulación y modelado, incluidas MATLAB y Simulink.</li>
                             </ul>
-                            <p class="p21">
+                            <p class="p21 c2">
                                 02/2011 - 01/2013 <br>
-                                <span class="negrita" style="color: #000000;">SDPE</span>
+                                <span class="negrita c2" style="color: #000000;">SDPE</span>
                                  | Las Palmas de Gran Canaria, GC <br>
                                 Técnico informático <br>
                             </p>
-                            <ul>
+                            <ul class="item2">
                                 <li>A cargo de la instalación, administración, configuración y soporte de <br>
                                     herramientas informáticas.</li>
                                 <li>Mantenimiento, despliegue y configuración de equipos.</li>
@@ -222,19 +245,19 @@
                     <tr>
                         <td>
                             <hr size="1px" color="#4a4a4a" width="370&"/>
-                            <p class="sub1" style="color: #4a4a4a; font-size: 12px;">
+                            <p class="sub1 c2" style="color: #4a4a4a; font-size: 12px;">
                                 FORMACIÓN ACADÉMICA</p>
-                            <p class="p2">
+                            <p class="p31 c2">
                                 06/2010 <br>
-                                <span class="negrita" style="color: #000000;">
+                                <span class="negrita c2" style="color: #000000;">
                                     Universidad de las Palmas de Gran Canaria
                                 </span>
                                 | Las Palmas de Gran Canaria, GC <br>
                                 Grado: Ingeniería Informática <br>
                             </p>
-                            <p class="p4">
+                            <p class="p4 c2">
                                 09/2011 <br>
-                                <span class="negrita" style="color: #000000;">
+                                <span class="negrita c2" style="color: #000000;">
                                     Escuela Superior de Diseño de Barcelona
                                 </span>
                                 | Online <br>
