@@ -1,0 +1,184 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #073565;
+}
+
+.logo {
+    margin-top: -20px;
+    margin-bottom: -25px;
+    margin-left: 25px;
+}
+
+.sociales {
+    margin-top: -12px;
+    margin-bottom: -20px;
+    margin-right: 25px;
+}
+
+nav {
+    height: 40px;
+    text-align: center;
+    background-color: #c7860e;
+}
+
+ul {
+    margin: 0px;
+    padding-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    padding: 10px 30px 10px 30px;
+}
+
+nav ul li:hover {
+    background-color: #073565;
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-left-color: white;
+    border-right-style: solid;
+    border-right-width: 3px;
+    border-right-color: white;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #c7860e;
+    text-shadow: 2px 2px 2px #c7860e;
+    color: white;
+}
+
+section {
+    display: flex;
+    flex-flow: wrap;
+}
+
+article {
+    padding: 10px;
+    margin: 10px;
+    flex: 20%;
+}
+
+.imagen {
+    text-align: center;
+}
+
+.imagen img {
+    width: 200px;
+}
+
+.imagen img:hover {
+    transform: rotate(5deg) scale(1.2);
+}
+
+.f1 {
+    filter: grayscale();
+}
+
+.f1:hover {
+    filter: none;
+}
+
+.f2 {
+    filter: blur(10px);
+}
+
+.f2:hover {
+    filter: none;
+}
+
+.f3 {
+    filter: invert(80%);
+}
+
+.f3:hover {
+  filter: none;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #073565;
+}
+
+.pie {
+    margin: 25px;
+}
+
+.titulo1 {
+    /* animation:slidein 3s infinite alternate */
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    30%{
+        font-size: 300%;
+        margin-left: 45%;
+        width: 100%;
+    } 
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+/*
+.f5 {
+    animation-duration: 2s;
+    animation-name: logo;
+}
+
+@keyframes logo {
+    from {
+        margin-left: -100%;
+        width: 100%;
+    }   
+    to {
+        margin-right: 0%;
+        width: 100%;
+    }
+} */
+
+.imglogo {
+    animation-name: logo, latido;
+    animation-duration: 2s, 1s;
+    animation-iteration-count: 1, infinite;
+    animation-direction: alternate;
+}
+
+@keyframes latido {
+    from {
+        transform: scale(0.8);
+    }
+    to {
+        transform: scale(1.0);
+    }
+}
+
+@keyframes logo {
+    from {
+        margin-left: -100%;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
