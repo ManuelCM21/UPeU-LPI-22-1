@@ -1,0 +1,44 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn{
+    padding: 7px 15px 7px 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+    background-color: aqua;
+    border: 0px;
+    font-family: monospace;
+    font-size: 14pt;
+    text-align: center;
+}
+.boton{
+    padding: 7px 15px 7px 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+    background-color: aqua;
+    border: 0px;
+    font-family: monospace;
+    font-size: 14pt;
+    text-align: center;
+}
+.boton:hover{
+    background-color: #0b5c22;
+    color: white;
+    border: 2px solid aqua;
+}
+.btn:hover{
+    background-color: #0b5c22;
+    color: white;
+    border: 2px solid aqua;
+}
+.rspt{
+    padding: 7px 10px 7px 10px;
+    width:300px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+    background-color: aqua;
+    border: 0px;
+    font-family: monospace;
+    font-size: 14pt;
+}

@@ -1,0 +1,124 @@
+
+.btn{
+    padding: 7px 15px 7px 15px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px black;
+    background-color: #5aae32;
+    border: 0px;
+    font-family: monospace;
+    font-size: 14pt;
+    text-align: center;
+}
+.boton{
+    padding: 7px 15px 7px 15px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px black;
+    background-color: #5aae32;
+    border: 0px;
+    font-family: monospace;
+    font-size: 14pt;
+    text-align: center;
+}
+.boton:hover{
+    background-color: #0b5c22;
+    color: white;
+    border: 2px solid #5aae32;
+}
+.btn:hover{
+    background-color: #0b5c22;
+    color: white;
+    border: 2px solid #5aae32;
+}
+.rspt{
+    padding: 7px 10px 7px 10px;
+    width:500px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px black;
+    background-color: #5aae32;
+    border: 0px;
+    font-family: monospace;
+    font-size: 14pt;
+}
+/* -------------------------------- */
+.btn{
+    padding: 7px 15px 7px 15px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px black;
+    background-color: #5aae32;
+    border: 0px;
+    font-family: monospace;
+    font-size: 14pt;
+    text-align: center;
+}
+.boton{
+    padding: 7px 15px 7px 15px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px black;
+    background-color: #5aae32;
+    border: 0px;
+    font-family: monospace;
+    font-size: 14pt;
+    text-align: center;
+}
+.boton:hover{
+    background-color: #0b5c22;
+    color: white;
+    border: 2px solid #5aae32;
+}
+.btn:hover{
+    background-color: #0b5c22;
+    color: white;
+    border: 2px solid #5aae32;
+}
+.rspt{
+    padding: 7px 10px 7px 10px;
+    width:500px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px black;
+    background-color: #5aae32;
+    border: 0px;
+    font-family: monospace;
+    font-size: 14pt;
+}
+
+/*-----------------*/
+.btn{
+    padding: 7px 15px 7px 15px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px black;
+    background-color: #5aae32;
+    border: 0px;
+    font-family: monospace;
+    font-size: 14pt;
+    text-align: center;
+}
+.boton{
+    padding: 7px 15px 7px 15px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px black;
+    background-color: #5aae32;
+    border: 0px;
+    font-family: monospace;
+    font-size: 14pt;
+    text-align: center;
+}
+.boton:hover{
+    background-color: #0b5c22;
+    color: white;
+    border: 2px solid #5aae32;
+}
+.btn:hover{
+    background-color: #0b5c22;
+    color: white;
+    border: 2px solid #5aae32;
+}
+.rspt{
+    padding: 7px 10px 7px 10px;
+    width:300px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px black;
+    background-color: #5aae32;
+    border: 0px;
+    font-family: monospace;
+    font-size: 14pt;
+}

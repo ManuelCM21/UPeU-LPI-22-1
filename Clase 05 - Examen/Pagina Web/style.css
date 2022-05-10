@@ -1,0 +1,113 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
+}
+
+.logo {
+    margin-top: 10px;
+    margin-bottom: -25px;
+    margin-left: 35px;
+}
+
+p.busqueda{
+    font-size: 20px;
+    text-align: center;
+    color: #dedada;
+    margin-top: 30px;
+}
+
+img.lupa{
+    margin-bottom: -5px;
+    margin-right: 10px;
+    margin-left: 60px;
+}
+img.candado{
+    margin-bottom: -5px;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+div.nav {
+    height: 90px;
+    text-align: center;
+}
+
+ul {
+    margin: 0px;
+    padding-top: 35px;
+}
+
+div.nav ul li {
+    font-size: 20px;
+    display: inline;
+    padding: 25px 30px 25px 30px;
+}
+
+div.nav ul li:hover {
+    background-color: #073565;
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-left-color: white;
+    border-right-style: solid;
+    border-right-width: 3px;
+    border-right-color: white;
+}
+
+div.nav ul li a {
+    text-decoration: none;
+    color: #dedada;
+}
+
+div.nav ul li a:hover {
+    font-weight: bold;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #c7860e;
+    text-shadow: 2px 2px 2px #c7860e;
+    color: white;
+
+}
+
+h4.titulo {
+    font-size: 50px;
+}
+
+p.texto{
+    width: 70%;
+    font-size: 30px;
+}
+
+.slider {
+    position: relative;
+}
+
+.descripcion {
+    margin-left: 30px;
+    left: 20px;
+    top: 30%;
+    position: absolute;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    background-color: white;
+    padding: 10px;
+}
+
+.contenido {
+    text-align: center;
+    padding: 25px 30px 25px 30px;
+}
