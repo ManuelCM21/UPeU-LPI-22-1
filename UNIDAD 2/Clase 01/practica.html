@@ -7,22 +7,71 @@
     <title>Practica Bootstrap</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
 </head>
+<style>
+    .c1{
+        background-color: lime;
+        border: 1px solid black;
+    }
+    .c2{
+        background-color: red;
+        border: 4px solid white;
+    }
+    .c3{
+        background-color: magenta;
+        border: 4px solid white;
+    }
+    .c4{
+        background-color: #FF9A56;
+        border: 4px solid white;
+        height: 200px;
+    }
+    .c5{
+        background-color: blue;
+        border: 4px solid white;
+        height: 100px;
+    }
+    .r2 {
+        margin-top: 8px;
+        border: 1px solid black;
+    }
+</style>
 <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
-    <div class="row bg-primary">
-        <div class="row bg-primary py-4">
-            <div class="col-lg-12 bg-warning py-3">
-                Columa1
+    <div class="container">
+        <div class="c1 row py-4">
+            <div class="col"></div>
+        </div>
+        <div class="row">
+            <div class="c2 col-lg-3 col-md-3 py-4 mt-2">
+                <div class="row ">
+                    <div class="col"></div>
+                </div>
+            </div>
+            <div class="r2 col-lg-9 col-md-9">
+                <div class="row p-1">
+                    <div class="c3 col py-4 mt-2"></div>
+                </div>
+                <div class="row p-1">
+                    <div class="c4 col-lg-6 col-md-12 py-4"></div>
+                    <div class="c4 col-lg-6 col-md-12 py-4"></div>
+                </div>
+                <div class="row p-1">
+                    <div class="c5 col-lg-2 col-md-4 col-sm-6 py-4"></div>
+                    <div class="c5 col-lg-2 col-md-4 col-sm-6 py-4"></div>
+                    <div class="c5 col-lg-4 col-md-4 col-sm-6 py-4"></div>
+                    <div class="c5 col-lg-2 col-md-4 col-sm-6 py-4"></div>
+                    <div class="c5 col-lg-2 col-md-4 col-sm-6 py-4"></div>
+                    <div class="c5 col-lg-2 col-md-4 col-sm-6 py-4"></div>
+                    <div class="c5 col-lg-2 col-md-4 col-sm-6 py-4"></div>
+                    <div class="c5 col-lg-4 col-md-4 col-sm-6 py-4"></div>
+                    <div class="c5 col-lg-2 col-md-4 col-sm-6 py-4"></div>
+                    <div class="c5 col-lg-2 col-md-4 col-sm-6 py-4"></div>
+                </div>
             </div>
         </div>
+        <div class="c1 row mt-2 py-4">
+            <div class="col"></div>
+        </div>
     </div>
-    <div class="row bg-warning py-4">
-        <div class="col-sm-6">Columna1</div>
-        <div class="col-sm-6">Columna2</div>
-        <div class="col">Columna3</div>
-        <div class="col">Columna4</div>
-        <div class="col">Columna5</div>
-        <div class="col">Columna6</div>
-    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
