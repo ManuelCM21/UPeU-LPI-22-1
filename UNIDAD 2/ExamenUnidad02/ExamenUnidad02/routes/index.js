@@ -18,4 +18,8 @@ router.get('/registrar', function(req, res, next) {
   res.render('registro');
 });
 
+router.get('/tramite', function(req, res, next) {
+  res.render('tramites');
+});
+
 module.exports = router;
