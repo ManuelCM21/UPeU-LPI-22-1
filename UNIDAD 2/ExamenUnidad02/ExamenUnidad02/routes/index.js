@@ -22,4 +22,8 @@ router.get('/tramite', function(req, res, next) {
   res.render('tramites');
 });
 
+router.get('/calendario', function(req, res, next) {
+  res.render('calendar');
+});
+
 module.exports = router;
